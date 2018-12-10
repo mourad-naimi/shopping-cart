@@ -1,0 +1,207 @@
+/*-----*-----*/
+*{
+  margin:0px;
+  padding:0px;
+}
+
+/*-----main-----*/
+.main{
+  padding-top:52px;
+}
+
+/*-----h1-----*/
+h1{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 40px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+/*-----bread-choice-----*/
+.bread-choice{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/*-----choose-bread-----*/
+.choose-bread{
+  padding-left: 50px;
+  width: 350px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 35px;
+  background: rgb(201, 59, 201);
+  color: white;
+}
+
+/*-----total-----*/
+.total{
+  width: 100px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 35px;
+  color: rgb(59, 125, 201);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/*-----totalpr-----*/
+.totalpr{
+  margin-top:10px; 
+  width: 100px;
+  height: 60px;
+  font-style: italic;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 50px;
+  color: blue;
+}
+
+/*-----ingredients-boxes-----*/
+.ingredients-boxes{
+  width: 1000px;
+  margin: auto;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*-----ingredients-box-----*/
+.ingredients-box{
+  height:300px;
+  width:300px;
+  margin:20px 12px;
+  border:2px solid #f7f7f7;
+  border-radius:5px;
+  color:#747474;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+/*-----ingredients-quantity-----*/
+.ingredients-quantity{
+  border:2px solid #818181;
+  width:30px;
+  height:25px;
+  margin:15px;
+  border-radius:3px;
+  font-size:15px;
+  text-transform:uppercase;
+  font-weight:600;
+}
+
+/*-----ingredients-name-----*/
+.ingredients-name{
+  color:#747474;
+  font-size:18px;
+  font-family: sans-serif;
+  padding:15px;
+}
+
+/*-----total-ingredient-price-----*/
+.total-ingredient-price{
+  color:#1b1b1b;
+  width:30px;
+  font-size:18px;
+  font-family: sans-serif;
+  padding:15px;
+}
+
+/*-----ingredients-image-harissa-----*/
+.ingredients-image-harissa{
+  background:url("https://www.nessma.tv/assets/famille/750_375/d2e0d0c8a9d1391f83a7a459fa73a5f35.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-oeuf-----*/
+.ingredients-image-oeuf{
+  background:url("https://static.cuisineaz.com/680x357/i130742-oeufs-durs.jpeg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-cheese-----*/
+.ingredients-image-cheese{
+  background:url("https://tn.all.biz/img/tn/catalog/1319.jpeg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-onion-----*/
+.ingredients-image-onion{
+  background:url("https://static.comment-economiser.fr/images/photos_astuces/conserver-oignons-frigo-3883.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-tomate-----*/
+.ingredients-image-tomate{
+  background:url("http://www.black-feelings.com/fileadmin/_processed_/csm_322a362a4d_9ebb7155ce.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-laitue-----*/
+.ingredients-image-laitue{
+  background:url("http://biofermier.com/selestat/wp-content/uploads/sites/17/2016/06/salade-laitue-bio-Alsace.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-tuna-----*/
+.ingredients-image-tuna{
+  background:url("https://ecomalin.net/280/thon-en-morceaux-3-1.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-salami-----*/
+.ingredients-image-salami{
+  background:url("http://www.tunisiefocus.com/wp-content/uploads/2015/10/salami-cocido-tunisie.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+
+/*-----ingredients-image-add-----*/
+.ingredients-image-add{
+  background:url("https://image.freepik.com/free-icon/add-button-thin-line-ios-7-interface-symbol_318-33624.jpg");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:contain ;
+  border-radius:5px 5px 0px 0px;
+}
